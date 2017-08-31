@@ -7,7 +7,7 @@ class App extends Component {
 	constructor(){
 		super();
 		this.state = {
-			wordToGuess:"",
+			wordToGuess:randomWords(),
 			strikes:0,
 			guess:"",
 			correctGuesses:[]
